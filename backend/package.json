@@ -16,6 +16,9 @@
         "start:dev": "nodemon --exec ts-node index.ts"
     },
     "dependencies": {
-        "koa": "^2.13.1"
+        "@types/koa-static": "^4.0.1",
+        "dotenv": "^8.2.0",
+        "koa": "^2.13.1",
+        "koa-static": "^5.0.0"
     }
 }
