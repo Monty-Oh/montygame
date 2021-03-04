@@ -1,0 +1,21 @@
+{
+    "name": "backend",
+    "version": "0.0.1",
+    "author": "monty",
+    "description": "backend for toy project",
+    "main": "index.ts",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/koa": "^2.13.1",
+        "@types/node": "^14.14.31",
+        "nodemon": "^2.0.7",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.2"
+    },
+    "scripts": {
+        "start:dev": "nodemon --exec ts-node index.ts"
+    },
+    "dependencies": {
+        "koa": "^2.13.1"
+    }
+}
